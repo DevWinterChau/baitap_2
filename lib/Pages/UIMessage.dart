@@ -85,21 +85,43 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color: Colors.grey[200], // Adjust the background color as needed
+                        color: Colors.white, // Adjust the background color as needed
                       ),
+                      padding: EdgeInsets.symmetric(horizontal: 8.0),
                       child: Row(
                         children: [
-                          Icon(Icons.search),
                           SizedBox(width: 8.0),
                           Expanded(
-                            child: TextField(
-                              decoration: InputDecoration(
-                                hintText: 'Search....',
-                                border: InputBorder.none,
+                            child: Container(
+                              color: Colors.white,
+                              child: Row(
+                                children: [
+                                  Expanded(
+                                    child: GestureDetector(
+                                    onTap: () {
+                                      showSearch(context: context, delegate: SearchSomethinDelegate());
+                                },
+                                  child: Text(
+                                    "Search...",
+
+                                    style: TextStyle(
+                                      color: Colors.black54,
+                                      fontSize: 16,
+                                      // Add other text styles as needed
+                                    ),
+                                  ),
+                                  ),
+                                  ),
+                                  IconButton(
+                                    color: Colors.blueGrey,
+                                    icon: Icon(Icons.search),
+                                    onPressed: () {
+                                      // Handle the search action here
+                                      showSearch(context: context, delegate: SearchSomethinDelegate());
+                                    },
+                                  ),
+                                ],
                               ),
-                              onTap: (){
-                                    showSearch(context: context, delegate: SearchSomethinDelegate());
-                              },
                             ),
                           ),
                         ],
