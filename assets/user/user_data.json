@@ -1,12 +1,45 @@
 {
     "result": [
         {
+            "id": 1,
+            "name": "Ly ly",
+            "sex": "Nữ",
+            "email": "lyly123@gmail.com",
+            "phone": "0987654321",
+            "avt": "assets/user/user1.png",
+            "list_msg": [
+                {}
+            ]
+        },
+        {
             "id": 2,
             "name": "Hương",
             "sex": "Nữ",
             "email": "huong123@gmail.com",
             "phone": "0987654321",
-            "avt": "assets/user/user2.png"
+            "avt": "assets/user/user2.png",
+            "list_msg": [
+                {
+                    "message": "Hello Hương! How are you?",
+                    "time": "2024-01-10T08:00:00Z"
+                },
+                {
+                    "message": "Hi there! Have you seen the latest movie?",
+                    "time": "2024-01-09T18:30:00Z"
+                },
+                {
+                    "message": "What's your plan for the weekend?",
+                    "time": "2024-01-09T12:45:00Z"
+                },
+                {
+                    "message": "Hey! Did you check out the new restaurant in town?",
+                    "time": "2024-01-08T15:20:00Z"
+                },
+                {
+                    "message": "Good morning! Ready for another day?",
+                    "time": "2024-01-08T08:30:00Z"
+                }
+            ]
         },
         {
             "id": 3,
@@ -14,7 +47,29 @@
             "sex": "Nam",
             "email": "minh.minh@gmail.com",
             "phone": "0123456789",
-            "avt": "assets/user/user3.png"
+            "avt": "assets/user/user3.png",
+            "list_msg": [
+                {
+                    "message": "Hi Minh! How's it going?",
+                    "time": "2024-01-10T09:15:00Z"
+                },
+                {
+                    "message": "Hey there! Have a great day!",
+                    "time": "2024-01-09T17:00:00Z"
+                },
+                {
+                    "message": "Any plans for the evening?",
+                    "time": "2024-01-09T13:10:00Z"
+                },
+                {
+                    "message": "Hello Minh! Did you finish the project?",
+                    "time": "2024-01-08T14:45:00Z"
+                },
+                {
+                    "message": "Good morning! Ready for another productive day?",
+                    "time": "2024-01-08T08:00:00Z"
+                }
+            ]
         },
         {
             "id": 4,
@@ -22,7 +77,29 @@
             "sex": "Nữ",
             "email": "lan.lan@gmail.com",
             "phone": "0765432109",
-            "avt": "assets/user/user4.png"
+            "avt": "assets/user/user4.png",
+            "list_msg": [
+                {
+                    "message": "Hi Lan! How are you doing?",
+                    "time": "2024-01-10T10:30:00Z"
+                },
+                {
+                    "message": "Hello! Have you tried the new cafe in the neighborhood?",
+                    "time": "2024-01-09T16:40:00Z"
+                },
+                {
+                    "message": "Planning anything fun for the weekend?",
+                    "time": "2024-01-09T11:20:00Z"
+                },
+                {
+                    "message": "Hey Lan! Did you see the latest news?",
+                    "time": "2024-01-08T13:15:00Z"
+                },
+                {
+                    "message": "Good morning! Wishing you a wonderful day!",
+                    "time": "2024-01-08T07:45:00Z"
+                }
+            ]
         },
         {
             "id": 5,
@@ -30,7 +107,29 @@
             "sex": "Nam",
             "email": "tuan.tuan@gmail.com",
             "phone": "0876543210",
-            "avt": "assets/user/user5.png"
+            "avt": "assets/user/user5.png",
+            "list_msg": [
+                {
+                    "message": "Hello Tuấn! How's everything going?",
+                    "time": "2024-01-10T11:45:00Z"
+                },
+                {
+                    "message": "Hi there! Have you seen the latest sports match?",
+                    "time": "2024-01-09T15:50:00Z"
+                },
+                {
+                    "message": "Planning a workout for the weekend?",
+                    "time": "2024-01-09T10:05:00Z"
+                },
+                {
+                    "message": "Hey Tuấn! Did you try the new fitness class?",
+                    "time": "2024-01-08T12:30:00Z"
+                },
+                {
+                    "message": "Good morning! Ready for some exercise?",
+                    "time": "2024-01-08T07:15:00Z"
+                }
+            ]
         },
         {
             "id": 6,
@@ -38,7 +137,29 @@
             "sex": "Nữ",
             "email": "thao.thao@gmail.com",
             "phone": "0932108765",
-            "avt": "assets/user/user6.png"
+            "avt": "assets/user/user6.png",
+            "list_msg": [
+                {
+                    "message": "Hi Thảo! How's your day going?",
+                    "time": "2024-01-10T12:55:00Z"
+                },
+                {
+                    "message": "Hello! Have you read any good books lately?",
+                    "time": "2024-01-09T14:20:00Z"
+                },
+                {
+                    "message": "Any exciting plans for the weekend?",
+                    "time": "2024-01-09T09:30:00Z"
+                },
+                {
+                    "message": "Hey Thảo! Did you see the new exhibition in town?",
+                    "time": "2024-01-08T11:10:00Z"
+                },
+                {
+                    "message": "Good morning! Wishing you a day filled with joy!",
+                    "time": "2024-01-08T06:45:00Z"
+                }
+            ]
         },
         {
             "id": 7,
@@ -46,7 +167,29 @@
             "sex": "Nam",
             "email": "nam123@gmail.com",
             "phone": "0765432108",
-            "avt": "assets/user/user7.png"
+            "avt": "assets/user/user7.png",
+            "list_msg": [
+                {
+                    "message": "Hello Nam! How's it going?",
+                    "time": "2024-01-10T13:45:00Z"
+                },
+                {
+                    "message": "Hey there! Have you checked out the latest tech news?",
+                    "time": "2024-01-09T14:50:00Z"
+                },
+                {
+                    "message": "Any plans for the weekend?",
+                    "time": "2024-01-09T09:15:00Z"
+                },
+                {
+                    "message": "Hi Nam! Did you see the new software update?",
+                    "time": "2024-01-08T10:40:00Z"
+                },
+                {
+                    "message": "Good morning! Ready for a day of coding?",
+                    "time": "2024-01-08T07:30:00Z"
+                }
+            ]
         },
         {
             "id": 8,
@@ -54,7 +197,29 @@
             "sex": "Nữ",
             "email": "mai.mai@gmail.com",
             "phone": "0987654322",
-            "avt": "assets/user/user8.png"
+            "avt": "assets/user/user8.png",
+            "list_msg": [
+                {
+                    "message": "Hi Mai! How are you today?",
+                    "time": "2024-01-10T14:30:00Z"
+                },
+                {
+                    "message": "Hello! Have you tried the new recipe I sent you?",
+                    "time": "2024-01-09T13:05:00Z"
+                },
+                {
+                    "message": "Planning anything fun for the weekend?",
+                    "time": "2024-01-09T08:25:00Z"
+                },
+                {
+                    "message": "Hey Mai! Did you see the latest fashion trends?",
+                    "time": "2024-01-08T09:50:00Z"
+                },
+                {
+                    "message": "Good morning! Wishing you a day of joy and laughter!",
+                    "time": "2024-01-08T06:15:00Z"
+                }
+            ]
         },
         {
             "id": 9,
@@ -62,7 +227,29 @@
             "sex": "Nam",
             "email": "trung.trung@gmail.com",
             "phone": "0123456788",
-            "avt": "assets/user/user9.png"
+            "avt": "assets/user/user9.png",
+            "list_msg": [
+                {
+                    "message": "Hello Trung! How's everything going?",
+                    "time": "2024-01-10T15:20:00Z"
+                },
+                {
+                    "message": "Hey there! Have you been to the new gaming cafe?",
+                    "time": "2024-01-09T12:20:00Z"
+                },
+                {
+                    "message": "Any gaming plans for the weekend?",
+                    "time": "2024-01-09T07:35:00Z"
+                },
+                {
+                    "message": "Hi Trung! Did you try the latest game release?",
+                    "time": "2024-01-08T09:10:00Z"
+                },
+                {
+                    "message": "Good morning! Ready for some epic gaming sessions?",
+                    "time": "2024-01-08T05:45:00Z"
+                }
+            ]
         },
         {
             "id": 10,
@@ -70,7 +257,29 @@
             "sex": "Nữ",
             "email": "phuong.phuong@gmail.com",
             "phone": "0765432107",
-            "avt": "assets/user/user10.png"
+            "avt": "assets/user/user10.png",
+            "list_msg": [
+                {
+                    "message": "Hi Phương! How are you today?",
+                    "time": "2024-01-10T16:10:00Z"
+                },
+                {
+                    "message": "Hello! Have you visited the new art gallery?",
+                    "time": "2024-01-09T11:40:00Z"
+                },
+                {
+                    "message": "Planning anything creative for the weekend?",
+                    "time": "2024-01-09T07:00:00Z"
+                },
+                {
+                    "message": "Hey Phương! Did you see the latest art exhibition?",
+                    "time": "2024-01-08T08:25:00Z"
+                },
+                {
+                    "message": "Good morning! Wishing you a day filled with artistic inspiration!",
+                    "time": "2024-01-08T05:00:00Z"
+                }
+            ]
         }
     ]
 }
