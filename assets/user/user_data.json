@@ -1,0 +1,76 @@
+{
+    "result": [
+        {
+            "id": 2,
+            "name": "Hương",
+            "sex": "Nữ",
+            "email": "huong123@gmail.com",
+            "phone": "0987654321",
+            "avt": "assets/user/user2.png"
+        },
+        {
+            "id": 3,
+            "name": "Minh",
+            "sex": "Nam",
+            "email": "minh.minh@gmail.com",
+            "phone": "0123456789",
+            "avt": "assets/user/user3.png"
+        },
+        {
+            "id": 4,
+            "name": "Lan",
+            "sex": "Nữ",
+            "email": "lan.lan@gmail.com",
+            "phone": "0765432109",
+            "avt": "assets/user/user4.png"
+        },
+        {
+            "id": 5,
+            "name": "Tuấn",
+            "sex": "Nam",
+            "email": "tuan.tuan@gmail.com",
+            "phone": "0876543210",
+            "avt": "assets/user/user5.png"
+        },
+        {
+            "id": 6,
+            "name": "Thảo",
+            "sex": "Nữ",
+            "email": "thao.thao@gmail.com",
+            "phone": "0932108765",
+            "avt": "assets/user/user6.png"
+        },
+        {
+            "id": 7,
+            "name": "Nam",
+            "sex": "Nam",
+            "email": "nam123@gmail.com",
+            "phone": "0765432108",
+            "avt": "assets/user/user7.png"
+        },
+        {
+            "id": 8,
+            "name": "Mai",
+            "sex": "Nữ",
+            "email": "mai.mai@gmail.com",
+            "phone": "0987654322",
+            "avt": "assets/user/user8.png"
+        },
+        {
+            "id": 9,
+            "name": "Trung",
+            "sex": "Nam",
+            "email": "trung.trung@gmail.com",
+            "phone": "0123456788",
+            "avt": "assets/user/user9.png"
+        },
+        {
+            "id": 10,
+            "name": "Phương",
+            "sex": "Nữ",
+            "email": "phuong.phuong@gmail.com",
+            "phone": "0765432107",
+            "avt": "assets/user/user10.png"
+        }
+    ]
+}
