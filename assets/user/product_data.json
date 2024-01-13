@@ -1,0 +1,34 @@
+{
+  "result": [
+    {
+      "id": 1,
+      "name": "Áo thun",
+      "price": 20.0,
+      "image": "assets/user/user1.png"
+    },
+    {
+      "id": 2,
+      "name": "Quần jeans",
+      "price": 30.0,
+      "image": "assets/user/user2.png"
+    },
+    {
+      "id": 3,
+      "name": "Giày sneaker",
+      "price": 25.0,
+      "image": "assets/user/user3.png"
+    },
+    {
+      "id": 4,
+      "name": "Áo sơ mi",
+      "price": 35.0,
+      "image": "assets/user/user4.png"
+    },
+    {
+      "id": 5,
+      "name": "Ví da nam",
+      "price": 40.0,
+      "image": "assets/user/user5.png"
+    }
+  ]
+}
