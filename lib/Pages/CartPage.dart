@@ -69,6 +69,12 @@ class _ProductListState extends State<ProductList> {
                 itemBuilder: (context, index) {
                   final product = productList.result![index];
                   return ListTile(
+                    leading: Image.asset(
+                      product!.image!,  // Replace with the actual URL or path of your image
+                      width: 50,         // Set the desired width
+                      height: 50,        // Set the desired height
+                      fit: BoxFit.cover, // Adjust the fit as needed
+                    ),
                     title: Text(product.name!),
                     subtitle: Text('\$${product.price}'),
                     trailing: IconButton(
@@ -100,7 +106,7 @@ class ShoppingCart extends StatelessWidget {
             final item = cart.items[index];
             return ListTile(
               title: Text(item!.name!),
-              subtitle: Text('\$${item.price}'),
+              subtitle: Text('\$${item.price} x ${item.Quantity}'),
               trailing: IconButton(
                 icon: Icon(Icons.remove),
                 onPressed: () {

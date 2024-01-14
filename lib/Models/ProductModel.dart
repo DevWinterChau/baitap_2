@@ -32,6 +32,7 @@ class Product {
         // Creating a Product instance from the JSON response
         Product result = Product.fromJson(decodedData);
         // Accessing the list of Result instances
+        print(result);
         return result;
       }
     } catch (error) {
@@ -45,8 +46,9 @@ class Product {
 class Result {
   int? id;
   String? name;
-  int? price;
+  double? price;
   String? image;
+  int? Quantity;
 
   Result({this.id, this.name, this.price, this.image});
 
@@ -64,5 +66,8 @@ class Result {
     data['price'] = this.price;
     data['image'] = this.image;
     return data;
+  }
+  void ToString(){
+    print("Name:"+ this.name! +" số lượng: "+this.Quantity!.toString());
   }
 }

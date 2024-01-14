@@ -1,6 +1,8 @@
 import 'package:dart/Pages/FecthDataUsingHTTP.dart';
+import 'package:dart/Pages/SaveImagePage.dart';
 import 'package:dart/Pages/UIMessage.dart';
 import 'package:flutter/material.dart';
+import 'package:overlay_support/overlay_support.dart';
 import 'package:provider/provider.dart';
 
 import 'Models/Cart.dart';
@@ -11,10 +13,12 @@ void main() {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => Cart()),
-        // Thêm các Provider khác nếu có
+        // Add other providers if needed
       ],
-      child: MaterialApp(
-        home: MyApp(),
+      child: OverlaySupport.global(
+        child: MaterialApp(
+          home: MyApp(),
+        ),
       ),
     ),
   );
@@ -62,6 +66,20 @@ class MyApp extends StatelessWidget {
               child: Text("Fetch API"),
             ),
             SizedBox(height: 10,),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.pink
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SaveImagePage()),
+                );
+              },
+              child: Text("Save Image From Internet"),
+            ),
+            SizedBox(height: 10,),
+
             ElevatedButton(
               style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.pink
