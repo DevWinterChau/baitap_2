@@ -40,6 +40,8 @@ dependencies:
   provider: ^6.1.1
   image_gallery_saver: ^2.0.3
   overlay_support: ^2.1.0
+  flutter_bloc: ^8.1.3
+  rxdart: ^0.27.7
 
 
 dev_dependencies:
@@ -74,6 +76,11 @@ flutter:
     - assets/user/user8.png
     - assets/user/user9.png
     - assets/user/user10.png
+    - assets/user/product_1.png
+    - assets/user/product_2.png
+    - assets/user/product_3.png
+    - assets/user/product_4.png
+    - assets/user/product_5.png
     - assets/user/user_data.json
     - assets/user/product_data.json
   # To add assets to your application, add an assets section, like this:
