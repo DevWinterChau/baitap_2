@@ -47,7 +47,7 @@ class ItemFood extends StatelessWidget{
                   ),
                 ),
                 Text(
-                  "Loại món an: "+ itemFood!.category!, // Assuming email is the variable for the email address
+                  "Loại món ăn: "+ itemFood!.category!, // Assuming email is the variable for the email address
                   style: TextStyle(
                     color: Colors.blueAccent,
                     fontSize: 12,

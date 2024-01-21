@@ -1,4 +1,4 @@
-import 'package:dart/Modules/post/pages/FoodListPage.dart';
+import 'package:dart/Modules/food/pages/FoodListPage.dart';
 import 'package:dart/Pages/FecthDataUsingHTTP.dart';
 import 'package:dart/Pages/SaveImagePage.dart';
 import 'package:dart/Pages/UIMessage.dart';
@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'Models/Cart.dart';
 import 'Pages/CartPage.dart';
 import 'Pages/DemoStreamBuilder.dart';
+import 'Pages/Dempage.dart';
 
 void main() {
   runApp(
@@ -122,6 +123,18 @@ class MyApp extends StatelessWidget {
                 );
               },
               child: Text("BloC Parten"),
+            ),
+            ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.pink
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => DemoFuttureBuilderPage()),
+                );
+              },
+              child: Text("DemoFuttureBuilderPag"),
             ),
           ],
         ),

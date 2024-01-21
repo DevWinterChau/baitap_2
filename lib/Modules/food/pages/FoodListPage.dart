@@ -1,12 +1,10 @@
-import 'dart:convert';
 
-import 'package:dart/Modules/post/blocs/ListFoodBloC.dart';
-import 'package:dart/Modules/post/widgets/ItemFood.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:provider/provider.dart';
+
+import '../blocs/ListFoodBloC.dart';
+import '../widgets/ItemFood.dart';
 
 class FoodListPage extends StatelessWidget {
   @override
@@ -15,6 +13,13 @@ class FoodListPage extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Danh sách sản phẩm'),
+          actions: [
+            IconButton(
+              icon: Icon(Icons.search),
+              onPressed: () {
+              },
+            ),
+          ],
         ),
         body: Column(
           children: [

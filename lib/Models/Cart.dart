@@ -26,12 +26,18 @@ class Cart with ChangeNotifier {
         _items.add(item);
       }
     }
-
+    _items.sort((a,b) => b.name!.compareTo(a.name!));
     notifyListeners();
   }
 
   void removeItem(int index) {
-    _items.removeAt(index);
+    if(items[index].Quantity == 1){
+      _items.removeAt(index);
+    }
+    else{
+      items[index].Quantity = items[index].Quantity! - 1;
+    }
+    _items.sort((a,b) => b.name!.compareTo(a.name!));
     notifyListeners();
   }
 }
